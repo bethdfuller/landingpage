@@ -1,0 +1,145 @@
+body {
+    background-color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation */
+.navlinks, .logo, .hero, .footer {
+    color: #F9FAF8;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.logo {
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .lefthero {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.hero .righthero {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.placeholder {
+    background-color: gray;
+    color: black;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    justify-content: center;
+}
+
+.subtext {
+    color: #E5E7EB;
+}
+
+/* Random Images */
+.random {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.randomimages {
+    display: flex;
+}
+
+.randomimagetext {
+    font-weight: lighter;
+    font-size: small;
+    color: #1F2937;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.randomp {
+    text-align: center;
+}
+
+/* Quote */
+.quote {
+    background-color: #98999c;
+    padding: 50px;
+}
+
+.quotenice {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: larger;
+}
+
+.quotename {
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Action */
+.actioncall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.actioncallcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button2 {
+    border: 2px solid #E5E7EB;
+    width: 75px;
+}
+
+.actionbold {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.actionbelow {
+    font-size: smaller;
+    margin-top: -10px;
+}
+
+/* Footer */
+.footer {
+    padding: 30px;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+}
+
